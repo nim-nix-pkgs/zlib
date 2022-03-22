@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-zlib-master.flake = false;
+  inputs.src-zlib-master.ref   = "refs/heads/master";
   inputs.src-zlib-master.owner = "status-im";
-  inputs.src-zlib-master.ref   = "master";
   inputs.src-zlib-master.repo  = "nim-zlib";
   inputs.src-zlib-master.type  = "github";
   
