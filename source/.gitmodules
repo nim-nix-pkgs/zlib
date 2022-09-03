@@ -1,3 +1,0 @@
-[submodule "zlib/csources"]
-	path = zlib/csources
-	url = https://github.com/madler/zlib
